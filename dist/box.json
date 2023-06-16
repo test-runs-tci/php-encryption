@@ -13,10 +13,12 @@
             "in": "vendor/paragonie",
             "name": "*.php",
             "exclude": "other"
+        },
+        {
+            "in": "vendor/yoast",
+            "name": "*.php",
+            "exclude": "other"
         }
-    ],
-    "compactors": [
-        "Herrera\\Box\\Compactor\\Php"
     ],
     "main": "vendor/autoload.php",
     "output": "defuse-crypto.phar",
